@@ -12,12 +12,12 @@
 
 ## What it looks like
 
-![Frontpage](https://github.com/kliiu/MIDIGo/blob/main/pics/front.png)
-![inputpage](https://github.com/kliiu/MIDIGo/blob/main/pics/input_note.png)
-![generatedpage](https://github.com/kliiu/MIDIGo/blob/main/pics/generated.png)
-![Evaluationpage](https://github.com/kliiu/MIDIGo/blob/main/pics/evaluation.png)
-![toolspage](https://github.com/kliiu/MIDIGo/blob/main/pics/tools.png)
-![lastpage](https://github.com/kliiu/MIDIGo/blob/main/pics/last.png)
+![Frontpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/front.png)
+![inputpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/input_note.png)
+![generatedpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/generated.png)
+![Evaluationpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/evaluation.png)
+![toolspage](https://github.com/kliiu/MIDI-GO/blob/main/pics/tools.png)
+![lastpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/last.png)
 
 ## Statement 
 
