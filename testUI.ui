@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>630</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>630</width>
+    <height>390</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>630</width>
+    <height>390</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>630</width>
+     <height>390</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>630</width>
+     <height>390</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>630</width>
+     <height>390</height>
+    </size>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">stackedWidget{
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 189));
+border:none;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius:20px;}</string>
+   </property>
+   <property name="currentIndex">
+    <number>6</number>
+   </property>
+   <widget class="QWidget" name="home">
+    <property name="styleSheet">
+     <string notr="true">#home{
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}</string>
+    </property>
+    <widget class="QPushButton" name="Start">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>119</y>
+       <width>571</width>
+       <height>140</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Print</family>
+       <pointsize>65</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 127);
+font: 75 65pt &quot;Segoe Print&quot;;
+background-color: transparent;
+</string>
+     </property>
+     <property name="text">
+      <string>MIDI G  !</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Tool">
+     <property name="geometry">
+      <rect>
+       <x>257</x>
+       <y>280</y>
+       <width>115</width>
+       <height>65</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/support--v1.png);
+background-color: transparent;
+color: rgb(67, 67, 67);
+font: 13pt &quot;华光淡古印_CNKI&quot;;
+image-position:left;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>更多...</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>150</y>
+       <width>91</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-footprint.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>50</y>
+       <width>71</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;点我开始&lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;👇&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_1">
+    <property name="styleSheet">
+     <string notr="true">#page_1{
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QLabel" name="label_1">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>为您的曲子创建第一个音符吧！</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="EditNote">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>175</y>
+       <width>330</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">gridline-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_1">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image:url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>NEXT</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackHome">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bowl.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>HOME</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>400</x>
+       <y>110</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog--v3.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <property name="styleSheet">
+     <string notr="true">#page_2{
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>20</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>为您生成后续音符</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="ShowNotes">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>70</y>
+       <width>400</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>IBeamCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:TRANSPARENT;
+border: 10px solid  rgb(255, 255, 255);
+border-radius:18px;</string>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="ScrollBar_2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>70</y>
+       <width>20</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="baseSize">
+      <size>
+       <width>2</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+#ScrollBar_2:vertical{background-color:transparent;width:30px;height:255px;padding-top:15px;padding-bottom:15px;}   
+
+#ScrollBar_2::add-page:vertical{background-color:transparent;}       
+#ScrollBar_2::sub-page:vertical{
+	
+	background-color: qlineargradient(spread:reflect, x1:0.0198706, y1:0, x2:0.955, y2:0.523, stop:0.402985 rgba(255, 255, 255, 195), stop:1 rgba(255, 85, 127, 195));
+border-radius:10px;}
+
+
+
+#ScrollBar_2::handle:vertical{
+image: url(:/pic/resource/pixel-heart.png);
+}
+
+
+#ScrollBar_2::sub-line:vertical{background:none;}
+
+#ScrollBar_2::add-line:vertical{background:none;}
+
+</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_2">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>NEXT</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>320</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/19440-200.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <property name="styleSheet">
+     <string notr="true">#page_3{
+	background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QCommandLinkButton" name="SaveT">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>160</y>
+       <width>250</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#SaveT{font: 25pt &quot;华光中圆_CNKI&quot;;
+background-color：transparent;}
+#SaveT:hover{
+	font: 25pt &quot;华光中圆_CNKI&quot;;
+background-color：transparent;
+	text-decoration: underline;}
+</string>
+     </property>
+     <property name="text">
+      <string>保存为.TXT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>保存文件</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_3">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>NEXT</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sign_6">
+     <property name="geometry">
+      <rect>
+       <x>285</x>
+       <y>270</y>
+       <width>61</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/checkmark.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <property name="styleSheet">
+     <string notr="true">#page_4{
+	background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QLabel" name="lable_4">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>30</y>
+       <width>201</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>对本次作曲成果进行评价</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="ShowEva">
+     <property name="geometry">
+      <rect>
+       <x>115</x>
+       <y>70</y>
+       <width>400</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>IBeamCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:transparent;
+border: 10px solid  rgb(255, 255, 255);
+border-radius:18px;</string>
+     </property>
+    </widget>
+    <widget class="QScrollBar" name="ScrollBar_4">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>70</y>
+       <width>20</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+#ScrollBar_4:vertical{background-color:transparent;width:30px;height:255px;padding-top:15px;padding-bottom:15px;}   
+
+#ScrollBar_4::add-page:vertical{background-color:transparent;}       
+#ScrollBar_4::sub-page:vertical{
+	
+	background-color: qlineargradient(spread:reflect, x1:0.0198706, y1:0, x2:0.955, y2:0.523, stop:0.402985 rgba(255, 255, 255, 195), stop:1 rgba(255, 85, 127, 195));
+border-radius:10px;
+}
+
+
+
+#ScrollBar_4::handle:vertical{
+image: url(:/pic/resource/pixel-heart.png);
+}
+
+
+#ScrollBar_4::sub-line:vertical{background:none;}
+
+#ScrollBar_4::add-line:vertical{background:none;}
+
+</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_4">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>NEXT</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>320</y>
+       <width>71</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/19440-200.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <property name="styleSheet">
+     <string notr="true">#page_5{
+	background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QPushButton" name="back_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_5">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>NEXT</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="SaveM">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>160</y>
+       <width>250</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#SaveM{font: 25pt &quot;华光中圆_CNKI&quot;;}
+#SaveM:hover{
+	font: 25pt &quot;华光中圆_CNKI&quot;;
+	text-decoration: underline;}
+</string>
+     </property>
+     <property name="text">
+      <string>保存为.MIDI</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lable_5">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>60</y>
+       <width>81</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>保存文件</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="sign_7">
+     <property name="geometry">
+      <rect>
+       <x>285</x>
+       <y>270</y>
+       <width>61</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/checkmark.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_6">
+    <property name="styleSheet">
+     <string notr="true">#page_6{
+	background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QPushButton" name="play_pause">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>120</y>
+       <width>161</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe Print</family>
+       <pointsize>20</pointsize>
+       <weight>9</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#play_pause
+{   
+    
+	image: url(:/pic/resource/pet-commands-summon.png);
+background:transparent;
+font: 75 20pt &quot;Segoe Print&quot;;
+color: rgb(255, 255, 127);
+}
+#play_pause:hover
+{
+    
+	image: url(:/pic/resource/listening-skin-type-1.png);
+    background:transparent;
+    text:transparent;
+}
+
+#play_pause:checked
+{
+    image:url(:/pic/resource/stop-gesture (1).png);
+}</string>
+     </property>
+     <property name="text">
+      <string>GO! </string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>true</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="back_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bone.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>BACK</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackHome_2">
+     <property name="geometry">
+      <rect>
+       <x>529</x>
+       <y>150</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bowl.png);
+background-color: transparent;
+font: 15pt &quot;HGDY_CNKI&quot;;
+color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>HOME</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRepeat">
+      <bool>false</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>305</y>
+       <width>430</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#progressBar{
+        border: 4px solid rgb(255, 255, 255);
+        color:rgb(255, 85, 127);
+        text-align: center;
+	    font: 10pt &quot;HGDY_CNKI&quot;;
+        background:white;
+        border-radius:10px;
+	
+}
+#progressBar::chunk {
+        border: none;
+	background-color: qlineargradient(spread:reflect, x1:0.886, y1:1, x2:1, y2:0.8405, stop:0.079602 rgba(249, 249, 249, 255), stop:1 rgba(255, 255, 0, 255));
+ border-radius:10px;}</string>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tool_page">
+    <property name="styleSheet">
+     <string notr="true">#tool_page{
+	background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.537, fx:0.5, fy:0.494, stop:0.253731 rgba(255, 111, 157, 255), stop:1 rgba(255, 255, 255, 255));
+border-left:1px solid lightgray;
+border-right:1px solid lightgray;
+border-bottom:1px solid lightgray;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;}</string>
+    </property>
+    <widget class="QPushButton" name="PBun_71">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>30</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/search--v1.png);
+image-position: left;
+padding-top: 2px;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+background:transparent;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>     浏览</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lable_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>100</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>TXT转MIDI</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Browser_71">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ForbiddenCursor</cursorShape>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;请选择要处理的TXT文件...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lable_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>100</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>MIDI转TXT</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lable_9">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>100</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>曲目变速</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBun_72">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>70</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/search--v1.png);
+image-position: left;
+padding-top: 2px;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+background:transparent;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>浏览</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Browser_72">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ForbiddenCursor</cursorShape>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;请选择MIDI文件保存路径...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="transform_7">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>70</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/music-library.png);
+image-position: left;
+padding-top: 2px;
+text-align:right;
+background:transparent;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>转换</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="transform_8">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>180</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/music-library.png);
+image-position: left;
+padding-top: 2px;
+text-align:right;
+background:transparent;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>转换</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBun_81">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>140</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/search--v1.png);
+image-position: left;
+padding-top: 2px;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+background:transparent;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>浏览</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBun_82">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>180</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/search--v1.png);
+image-position: left;
+padding-top: 2px;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+background:transparent;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>浏览</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Browser_81">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>140</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ForbiddenCursor</cursorShape>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;请选择要处理的MIDI文件...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Browser_82">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>180</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ForbiddenCursor</cursorShape>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;请选择TXT文件保存路径...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>591</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>591</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBun_91">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>250</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/search--v1.png);
+image-position: left;
+padding-top: 2px;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+background:transparent;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>浏览</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Browser_91">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>250</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ForbiddenCursor</cursorShape>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;请选择要处理的MIDI文件...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="transform_10">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>290</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/edit.png);
+image-position: left;
+padding-top: 2px;
+text-align:right;
+background:transparent;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>调速</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Edit_10">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>290</y>
+       <width>51</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lable_10">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>295</y>
+       <width>41</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string>速度</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PBun_92">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>290</y>
+       <width>65</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/search--v1.png);
+image-position: left;
+padding-top: 2px;
+color: rgb(67, 67, 67);
+font: 11pt &quot;华光淡古印_CNKI&quot;;
+background:transparent;
+text-align:right;</string>
+     </property>
+     <property name="text">
+      <string>浏览</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="Browser_92">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>290</y>
+       <width>221</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor" stdset="0">
+      <cursorShape>ForbiddenCursor</cursorShape>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'SimSun'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic;&quot;&gt;请选择保存路径...&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackHome_3">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>325</y>
+       <width>90</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">image: url(:/pic/resource/dog-bowl.png);
+background:transparent;
+font: 13pt &quot;华光淡古印_CNKI&quot;;
+color: rgb(67, 67, 67);
+text-align:top;</string>
+     </property>
+     <property name="text">
+      <string>Home</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>line_2</zorder>
+    <zorder>line</zorder>
+    <zorder>PBun_71</zorder>
+    <zorder>lable_7</zorder>
+    <zorder>Browser_71</zorder>
+    <zorder>lable_8</zorder>
+    <zorder>lable_9</zorder>
+    <zorder>PBun_72</zorder>
+    <zorder>Browser_72</zorder>
+    <zorder>transform_7</zorder>
+    <zorder>transform_8</zorder>
+    <zorder>PBun_81</zorder>
+    <zorder>PBun_82</zorder>
+    <zorder>Browser_81</zorder>
+    <zorder>Browser_82</zorder>
+    <zorder>PBun_91</zorder>
+    <zorder>Browser_91</zorder>
+    <zorder>transform_10</zorder>
+    <zorder>Edit_10</zorder>
+    <zorder>lable_10</zorder>
+    <zorder>PBun_92</zorder>
+    <zorder>Browser_92</zorder>
+    <zorder>BackHome_3</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="testUI.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>jump1()</slot>
+  <slot>jump_tool()</slot>
+  <slot>jump_home()</slot>
+  <slot>jump2()</slot>
+  <slot>back2()</slot>
+ </slots>
+</ui>

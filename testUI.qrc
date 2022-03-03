@@ -1,0 +1,48 @@
+<RCC>
+  <qresource prefix="qss"/>
+  <qresource prefix="pic">
+    <file>resource/19440-200.png</file>
+    <file>resource/audio-wave--v2.gif</file>
+    <file>resource/checked-radio-button--v2.gif</file>
+    <file>resource/checked--v2.gif</file>
+    <file>resource/checkmark.png</file>
+    <file>resource/checkmark--v2 (1).gif</file>
+    <file>resource/checkmark--v2.gif</file>
+    <file>resource/delete-sign.png</file>
+    <file>resource/dog-bone.png</file>
+    <file>resource/dog-bowl.png</file>
+    <file>resource/dog-footprint.png</file>
+    <file>resource/dog--v3.png</file>
+    <file>resource/dog--v4.png</file>
+    <file>resource/dot-bricks.gif</file>
+    <file>resource/dots-loading--v2.gif</file>
+    <file>resource/dots-loading--v3.gif</file>
+    <file>resource/edit.png</file>
+    <file>resource/folder-invoices--v3.gif</file>
+    <file>resource/icons8-portable-speaker-64.png</file>
+    <file>resource/iphone-spinner.png</file>
+    <file>resource/iphone-spinner--v2.gif</file>
+    <file>resource/listening-skin-type-1.png</file>
+    <file>resource/minecraft-pug.png</file>
+    <file>resource/music-library.png</file>
+    <file>resource/music--v2.gif</file>
+    <file>resource/opened-folder.png</file>
+    <file>resource/opened-folder--v3.png</file>
+    <file>resource/pet-commands-summon.png</file>
+    <file>resource/photos-folder.png</file>
+    <file>resource/pixel-heart.png</file>
+    <file>resource/s256_f_business_7_0bg.png</file>
+    <file>resource/s256_f_event_44_0bg.png</file>
+    <file>resource/save-as.png</file>
+    <file>resource/search--v1 (1).png</file>
+    <file>resource/search--v1.png</file>
+    <file>resource/search--v2.gif</file>
+    <file>resource/stop-gesture (1).png</file>
+    <file>resource/stop-gesture.png</file>
+    <file>resource/support.png</file>
+    <file>resource/support--v1.png</file>
+    <file>resource/446781-200.png</file>
+    <file>resource/2658040-200.png</file>
+    <file>resource/523559-200.png</file>
+  </qresource>
+</RCC>
