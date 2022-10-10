@@ -1,4 +1,4 @@
-# MIDI Go
+# MIDI Go 🐶
 
 *Do you want to create your own music?*
 
@@ -10,7 +10,7 @@
 ①pip install -r requirements.txt
 ②run Call_testUI.py
 
-## What it looks like
+## What it looks like 
 
 ![Frontpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/front.png)
 ![inputpage](https://github.com/kliiu/MIDI-GO/blob/main/pics/input_note.png)
