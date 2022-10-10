@@ -4,7 +4,7 @@
 
 *Try **MIdI Go**!*
 
-*It's a music generation application based on MIDI format, which also provides tools for converting MIDI files to txt files, speeding up the MIDI music and so on. You're gonna love it.*
+*It's a automatic midi music generation application based on GPT2, and it also provides tools for converting MIDI files to txt files, speeding up the MIDI music and so on. You're gonna love it.*
 
 ## To start
 ①pip install -r requirements.txt
