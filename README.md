@@ -21,4 +21,4 @@
 
 ## Contributors 🌟
 
-This generation methods are based on (刘洋成学长)Liu Yangcheng's work while the rest of the application is done by (肖宇)Xiao Yu, （龚可欣）Gong Kexin and me together.
+This generation methods are based on (刘洋成)Liu Yangcheng's work while the rest of the application is done by (肖宇)Xiao Yu, （龚可欣）Gong Kexin and me together.
